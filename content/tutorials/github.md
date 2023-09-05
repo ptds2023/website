@@ -1,8 +1,8 @@
----
----
----
-
-+++ title = "Git(hub) setup" date = 2023-09-05T13:10:39+02:00 weight = 5 +++
++++
+title = "Git(hub) setup"
+date = 2023-09-05T13:10:39+02:00
+weight = 5
++++
 
 ## Installing and setting up Git, GitHub, and a Git GUI
 
