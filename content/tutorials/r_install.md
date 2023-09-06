@@ -1,40 +1,20 @@
 +++
-title = "R/RStudio installation and setup"
-date =  2018-09-19T13:10:39+02:00
+title = "R/RStudio setup"
+date =  2023-09-05T13:10:39+02:00
 weight = 5
 +++
 
-## 1. Installing `R` and `RStudio` 
+## Installing `R` and `RStudio` 
 
-### 1.1 Installing `R`
+### 1. Installing `R`
 
-Install the latest version of `R` (4.2.1 as of June 23, 2022). `R` itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below: 
+Install the latest version of `R` (4.3.1 as of September 5, 2023). `R` itself is similar to an engine and chassis of a car, that is a bare minimum so that you can start driving. You need to follow steps below: 
 
-* Visit [https://cran.r-project.org](https://cran.r-project.org) and click on "Download R for ...", where ... coresponds to your operating system. 
+* Visit [https://cran.r-project.org](https://cran.r-project.org) and click on "Download R for ...", where ... corresponds to your operating system. 
 * Depending on the operating system: 
-  - For Mac: download "R-4.2.1.pkg", open this file, and install `R`
-  - For Windows: click on "base", download the .exe file, open it, and install `R`
+  - For Mac: download "R-4.3.1-arm64.pkg", open this file, and install `R`;
+  - For Windows: click on "base", "Download R-4.3.1 for Windows", and download the .exe file. Open it, and install `R`.
   
-*Check yourself:* Open `R` application. In the console you will see something as follows:
-
-```{toml}
-R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
-Copyright (C) 2022 The R Foundation for Statistical Computing
-Platform: x86_64-w64-mingw32/x64 (64-bit)
-
-R est un logiciel libre livré sans AUCUNE GARANTIE.
-Vous pouvez le redistribuer sous certaines conditions.
-Tapez 'license()' ou 'licence()' pour plus de détails.
-
-R est un projet collaboratif avec de nombreux contributeurs.
-Tapez 'contributors()' pour plus d'information et
-'citation()' pour la façon de le citer dans les publications.
-
-Tapez 'demo()' pour des démonstrations, 'help()' pour l'aide
-en ligne ou 'help.start()' pour obtenir l'aide au format HTML.
-Tapez 'q()' pour quitter R.
-```
-
 *Note:* If you are a Mac user and you see similar to the following warning messages during the startup
 
 ```{toml}
@@ -55,7 +35,7 @@ you need to follow [steps below](https://stackoverflow.com/questions/9689104/ins
 * Write or paste in: `defaults write org.R-project.R force.LANG en_US.UTF-8`
 * Close Terminal
 
-### 1.2 Installing RStudio
+### 2. Installing RStudio
 
 *Caution:* Install `RStudio` only once `R` has been installed and only in this order.
 
@@ -63,7 +43,7 @@ you need to follow [steps below](https://stackoverflow.com/questions/9689104/ins
 
 We will install the free version: 
  
-* Visit [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download).
+* Visit [RStudio website](https://posit.co/download/rstudio-desktop/).
 * Click on the respective version of your operating system, this will start the downloading process.
 * Open the file and install.
 
@@ -79,24 +59,24 @@ We will install the free version:
 *Check yourself:* Open `RStudio` application. In the console you will see something as follows:
 
 ```{toml}
-R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
-Copyright (C) 2022 The R Foundation for Statistical Computing
+R version 4.3.1 (2023-06-16 ucrt) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 
-R est un logiciel libre livré sans AUCUNE GARANTIE.
-Vous pouvez le redistribuer sous certaines conditions.
-Tapez 'license()' ou 'licence()' pour plus de détails.
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
 
-R est un projet collaboratif avec de nombreux contributeurs.
-Tapez 'contributors()' pour plus d'information et
-'citation()' pour la façon de le citer dans les publications.
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
 
-Tapez 'demo()' pour des démonstrations, 'help()' pour l'aide
-en ligne ou 'help.start()' pour obtenir l'aide au format HTML.
-Tapez 'q()' pour quitter R.
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
 ```
 
-### 1.3 Installing packages
+### 3. Installing packages
 
 *Note:* Packages can be installed from both `R` and `RStudio`. The installed `RStudio` is not required.
 
@@ -110,76 +90,13 @@ Several packages, however, would have only development version (or simply be not
 * Install `devtools` package (if it has not yet been installed) as usual (as shown above).
 * Type `devtools::install_github("username/repo")` and hit the Enter/return key to execute the command in the console, where `username` is the username of the owner of the repo, and `repo` is the name of the repo.
 
-For homework you will use the following packages from CRAN: `"tidyverse"`, `"rworldmap"`, `"rworldxtra"`, `"ggmap"`, `"highcharter"`, `"devtools"`, `"rmarkdown"`, `"knitr"`, `"xml2"`, `"rvest"`, `"magrittr"`, `"shiny"`, `"roxygen2"`, and `"miniUI"`. 
+For homeworks you will use the following packages from CRAN: `"tidyverse"`, `"devtools"`, `"rmarkdown"`, `"knitr"`, `"shiny"`, `"roxygen2"`. 
 
 *Note:* Before installing the `"devtools"` package, you will most certainly need to install building tools.
 For Windows, you need to install [RTools](https://cran.r-project.org/bin/windows/Rtools/).
 For Mac, you need to install [XCode](https://developer.apple.com/xcode/).
 Check this [link](https://r-pkgs.org/setup.html#setup-tools) for more details.
 
-Instead of installing these packages one by one, you can pass the vector of characters packages' names: 
-
-
-```{toml}
-pkgs = c("tidyverse", "rworldmap", "rworldxtra", "ggmap", "highcharter", "devtools", "rmarkdown", "knitr", "xml2", "rvest", "magrittr", "shiny", "roxygen2","miniUI")
-install.packages(pkgs = pkgs)
-```
-
-Additionally, one has to install [Hadley Wickham](https://github.com/hadley)'s `"emo"` package (i.e., by using `devtools::install_github("hadley/emo")`).
-
 *Note:* Packages should be installed only **once**. No needs to install them every time when you want to use them (it is the same as installing Skype every time you want to call your parents). That is why it is better to do it in console, not in source editor.
 
 *Check yourself:* [To check if a package was installed successfully](https://stackoverflow.com/questions/9341635/check-for-installed-packages-before-running-install-packages), use `"name_of_package" %in% rownames(installed.packages())`.
-
-## 2. Installing and setting up Git, GitHub, and a Git GUI
-
-In this section we will install a distributed version-control system Git, register a new user at GitHub and connect them together.
-
-### 2.1 Installing and setting up Git
-
-* Download Git installer [for Mac](http://git-scm.com/download/mac) or [for Windows](https://git-scm.com/download/win).
-* Open the downloaded file and follow the proposed steps
-* Configure your Git to let it know who you are:
-  ```{toml}
-  git config --global user.name "YOUR FULL NAME"
-  git config --global user.email "YOUR EMAIL ADDRESS"
-  ```
-  Please do use your UNIL email address, so that we can exploit GitHub Student Developer Pack afterwards.
-
-
-*Check yourself:* Type in Terminal: `git --version`. It should display Git version, (e.g., `git version 2.22.0`)
-
-*Note:* For Mac users, Git could be already preinstalled. However, Apple does not provide the latest version, that is why we have just installed the latest Git. If the previous command shows `git version 2.7.0 (Apple Git-66)`, we will need to change the path of the executable command `git`. To do so execute the following commands in Terminal:
-
-```{toml}
-cd ~ 
-touch .bash_profile
-echo 'export PATH="/usr/local/bin:${PATH}"' >> .bash_profile
-source .bash_profile
-```
-
-*Note:* Sometimes RStudio has a wrong path to `git` command. To check it, go to Tools -> Global Options... -> Git/SVN, check the box "Enable version control interface for RStudio projects". Then, "Git executable" and `which git`/`where git` (for Mac/Windows users, respectively) should be the same. Otherwise, copy the path from Terminal to RStudio.
-
-To check if it worked, type `which git` in Terminal and expect to see `/usr/local/bin/git`.
-
-### 2.2 Registering a GitHub account
-
-* Visit <https://github.com> and fill in the fields. Please use the same email (i.e., UNIL email) address and short username without special symbols like hyphen, periods, etc. Furthermore, use free plan.
-* Set up an SSH connection follow steps at <https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent> and <https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account>
-
-* Set up a GitHub Student Developer Pack by visiting <https://education.github.com/>.
-
-### 2.3 Installing and setting up a Git GUI
-
-* Visit [https://desktop.github.com](https://desktop.github.com) and download GitHub Desktop
-* Install it
-* Fill in your username and password
-
-You can also consider [GitKraken](https://www.gitkraken.com/) as an alternative to GitHub Desktop.
-
-## References: 
-
-1. [Happy Git and GitHub for the useR](https://happygitwithr.com)
-2. [Install Git](https://www.atlassian.com/git/tutorials/install-git)
-3. [R packages](http://r-pkgs.had.co.nz/git.html)
-
