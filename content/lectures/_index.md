@@ -10,7 +10,7 @@ Every Thursday from 8:30 to 12:00.
 
 The ideal schedule is given below. It is subject to modifications.
 
-Class-related discussion and questions will be on Slack. <!-- do not forget to register [here](https://shiny.samorso.ch/fillingform/).-->
+Class-related discussion and questions will be on Slack. Do not forget to register [here](https://forms.gle/9EzB7J5mzNkYgCtv7).
 
 | Week | Date | Topic | Instructor |   
 |---|---|---|---|   
