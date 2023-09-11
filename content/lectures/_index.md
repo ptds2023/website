@@ -15,7 +15,7 @@ Class-related discussion and questions will be on Slack. Do not forget to regist
 | Week | Date | Topic | Instructor |   
 |---|---|---|---|   
 | 1 | 21 Sept | **No class** (_Thesis planning \& Career planning workshops_) |  |   
-| 2 | 28 Sept | Introduction, RMarkdown, Github | Samuel |
+| 2 | 28 Sept | [Introduction](https://ptds2023.github.io/class/lecture01), [RMarkdown](https://ptds2023.github.io/class/lecture02_markdown), [Github](https://ptds2023.github.io/class/lecture03_github), [R/Rstudio installation]({{<relref "tutorials/r_install.md">}}) | Samuel |
 | 3 | 5 Oct | Exercise and Homework 1, Project-oriented workflow | Aleksandr |
 | 4 | 12 Oct | Data structures, Control structures | Samuel |
 | 5 | 19 Oct | Exercise and Homework 2, R coding style guide | Aleksandr |
