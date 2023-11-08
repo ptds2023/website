@@ -21,7 +21,7 @@ Class-related discussion and questions will be on Slack. Do not forget to regist
 | 5 | 19 Oct | Exercise and Homework 2, R coding style guide | Aleksandr |
 | 6 | 26 Oct | [Object-oriented programming](https://ptds2023.github.io/class/lecture07_OOP), [Webscraping](https://ptds2023.github.io/class/lecture08_webscrap), [Shiny App I](https://ptds2023.github.io/class/lecture09_shiny)  | Samuel | 
 | 7 | 2 Nov | Exercise and Homework 3 | Aleksandr |
-| 8 | 9 Nov| Functional programming, Package creation, Shiny App II | Samuel |
+| 8 | 9 Nov| [Functional programming](https://ptds2023.github.io/class/lecture10_functional), [Shiny App I](https://ptds2023.github.io/class/lecture09_shiny), [Package creation](https://ptds2023.github.io/class/lecture11_pkg) | Samuel |
 | 9 | 16 Nov | Exercise and Homework 4 | Aleksandr |
 | 10 | 23 Nov | Metaprogramming, Tools for programming, Project | Samuel |
 | 11 | 30 Nov | Group Project | Aleksandr | 
