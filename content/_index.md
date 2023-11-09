@@ -9,7 +9,7 @@ Welcome to the website dedicated to *Programming Tools in Data Science*, a cours
 By the conclusion of this course, students will possess the ability to independently create their own R packages and Shiny apps. They will also gain proficiency in making their work accessible on GitHub, documenting their projects using literate programming techniques, and showcasing their efforts by creating a dedicated website.
 
 {{% notice warning %}}
-Due to problems with thrains, the class of today (9th of November) is on [Zoom](https://unil.zoom.us/j/4812532318?pwd=amMwRjRRRmU2R0dBT2c2OVlhd3hFQT09)
+Due to problems with trains, the class of today (9th of November) is on [Zoom](https://unil.zoom.us/j/4812532318?pwd=amMwRjRRRmU2R0dBT2c2OVlhd3hFQT09). See teaching channel on Slack for more information.
 {{% /notice %}}
 
 {{% notice warning %}}
