@@ -23,7 +23,7 @@ Class-related discussion and questions will be on Slack. Do not forget to regist
 | 7 | 2 Nov | Exercise and Homework 3 | Aleksandr |
 | 8 | 9 Nov| [Functional programming](https://ptds2023.github.io/class/lecture10_functional), [Shiny App I](https://ptds2023.github.io/class/lecture09_shiny), [Package creation](https://ptds2023.github.io/class/lecture11_pkg) | Samuel |
 | 9 | 16 Nov | Exercise and Homework 4 | Aleksandr |
-| 10 | 23 Nov | Metaprogramming, Tools for programming, Project | Samuel |
+| 10 | 23 Nov | [Package creation](https://ptds2023.github.io/class/lecture11_pkg), [Shiny App II](https://ptds2023.github.io/class/lecture12_shiny2), [Project](https://ptds2023.github.io/class/lecture13_project) | Samuel |
 | 11 | 30 Nov | Group Project | Aleksandr | 
 | 12 | 7 Dec | Website creation, Slide | Samuel |
 | 13 | 14 Dec | Group project | Aleksandr | 
